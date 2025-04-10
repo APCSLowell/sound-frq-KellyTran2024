@@ -46,5 +46,5 @@ public class Sound
     for(int i = zeros; i < samples.length; i++)
         results[i - zeros] = samples[i];
   }
-    samples = zeros;
+    samples = results;
 }
